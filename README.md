@@ -1,2 +1,2 @@
-# Heart-Disease-prediction
-Heart Disease prediction for advance predicting the chances of getting heart disease
+# Heart-Disease-Prediction
+A project that predicts whether a person is suffering from heart disease or not.
