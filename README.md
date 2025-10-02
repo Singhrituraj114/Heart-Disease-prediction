@@ -1,6 +1,6 @@
 Heart Disease Prediction System: A Machine Learning Approach to Early Diagnosis ❤️
 Project Overview
-The Heart Disease Prediction System is a robust, data-driven machine learning application designed to assess an individual's risk of developing heart disease. By analyzing a comprehensive set of patient health parameters, the system provides an early, objective, and quantifiable prediction. This tool serves as a critical asset for proactive and preventative healthcare, empowering clinicians with data-backed insights for early intervention and patient triage.
+The Heart Disease Prediction System is a robust, data-driven machine learning application designed to assess an individual's risk of developing heart disease. By analyzing patient health parameters, the system provides an early, objective, and quantifiable prediction. This tool serves as a critical asset for proactive and preventative healthcare, empowering clinicians with data-backed insights for early intervention and patient triage.
 
 Core Objective
 The primary objective is to develop, train, and validate a highly accurate and efficient predictive model capable of discerning the presence of heart disease (a binary classification task) from clinical data. The project aims to deliver a reliable system to support timely and informed diagnostic decisions.
@@ -32,25 +32,29 @@ Discrimination Power: Receiver Operating Characteristic (ROC) Curve and Area Und
 Dataset
 The project utilizes the widely recognized, anonymized UCI Heart Disease Dataset. This dataset includes essential clinical and demographic indicators:
 
-Category	Key Parameters
-Demographics	Age, Gender
-Cardiovascular Metrics	Resting Blood Pressure (trestbps), Serum Cholesterol (chol), Max Heart Rate Achieved (thalach)
-Clinical Indicators	Chest Pain Type (cp), Fasting Blood Sugar (fbs), Resting ECG Results (restecg)
-Exercise & Stress	Exercise-Induced Angina (exang), ST Depression (oldpeak)
+Demographics: Age, Gender.
 
-Export to Sheets
+Cardiovascular Metrics: Resting Blood Pressure (trestbps), Serum Cholesterol (chol), Maximum Heart Rate Achieved (thalach).
+
+Clinical Indicators: Chest Pain Type (cp), Fasting Blood Sugar (fbs), Resting ECG Results (restecg).
+
+Exercise & Stress: Exercise-Induced Angina (exang), ST Depression (oldpeak).
+
 Technology Stack
 The system is built upon a high-performance, open-source technology stack:
 
-Component	Technology	Purpose
-Programming Language	Python 3.x	Core development and scripting.
-Data Manipulation	Pandas, NumPy	Data cleaning, transformation, and numerical operations.
-Machine Learning	Scikit-learn	Model implementation and evaluation.
-Deep Learning	TensorFlow / Keras	Neural network architecture.
-Visualization	Matplotlib, Seaborn	Data exploration and result reporting.
-Deployment (Optional)	Flask, Streamlit, or FastAPI	Building the user-facing web API and interface.
+Programming Language: Python 3.x (Core development and scripting).
 
-Export to Sheets
+Data Manipulation: Pandas, NumPy (Data cleaning, transformation, and numerical operations).
+
+Machine Learning: Scikit-learn (Model implementation and evaluation).
+
+Deep Learning: TensorFlow / Keras (Neural network architecture).
+
+Visualization: Matplotlib, Seaborn (Data exploration and result reporting).
+
+Deployment (Optional): Flask, Streamlit, or FastAPI (Building the user-facing web API and interface).
+
 Installation and Setup
 1. Clone the Repository
 Bash
@@ -68,10 +72,10 @@ conda activate heart_env
 
 # OR using venv
 python -m venv heart_env
-source heart_env/bin/activate  # On macOS/Linux
-# .\heart_env\Scripts\activate  # On Windows
+source heart_env/bin/activate  # For macOS/Linux
+# .\heart_env\Scripts\activate  # For Windows
 3. Install Dependencies
-Install all required libraries using the requirements.txt file (you will need to create this file based on the libraries above):
+Install all required libraries using the requirements.txt file (ensure this file is present in your project directory):
 
 Bash
 
